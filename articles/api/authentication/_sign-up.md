@@ -76,7 +76,7 @@ curl --request POST \
   "link": "#signup"
 }) %>
 
-Given a user's credentials, and a `connection`, this endpoint will create a new user using active authentication.
+Given a user's credentials and a `connection`, this endpoint creates a new user.
 
 This endpoint only works for database connections. 
 
@@ -102,7 +102,7 @@ This endpoint only works for database connections.
 - The sample auth0.js script uses the library version 8. If you are using auth0.js version 7, please see this [reference guide](/libraries/auth0js/v7).
 
 
-### More Information
+### Learn More
 
 - [Password Strength in Auth0 Database Connections](/connections/database/password-strength)
 - [Password Options in Auth0 Database Connections](/connections/database/password-options)
